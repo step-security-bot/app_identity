@@ -30,3 +30,18 @@ updates:
       interval: monthly
     commit-message:
       prefix: 'deps(ruby)'
+
+  - package-ecosystem: npm
+    directory: /ts/packages/core
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /ts/packages/node
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /ts/packages/suite
+    schedule:
+      interval: daily
